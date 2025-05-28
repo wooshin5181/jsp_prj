@@ -9,6 +9,8 @@ if( flag == null){
 	cdXML.webBrowserOutput(out);
 }else{
 	cdXML.createDeptFile();
+	String s="테스트";
+	System.out.println(s);
 	%>
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
