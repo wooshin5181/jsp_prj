@@ -11,6 +11,7 @@ if( flag == null){
 	cdXML.createDeptFile();
 	String s="테스트";
 	System.out.println(s);
+이게뭐야???
 	%>
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
