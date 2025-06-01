@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="shortcut icon" href="http://192.168.10.225/jsp_prj/common/images/favicon.ico"/>
+<link rel="shortcut icon" href="http://192.168.10.210/jsp_prj/common/images/favicon.ico"/>
 <link rel="stylesheet" type="text/css" href="http://192.168.10.210/jsp_prj/common/css/main_20240911.css">
 <!-- bootstrap CDN 시작-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -31,7 +31,7 @@ $(function(){
 	요청처리객체 : <%= request %><br>
 	응답처리객체 : <%= response %>
 	</div>
-	<a href="http://localhost/jsp_prj/day1007/call_test.html">이전 페이지</a>
+	<a href="http://192.168.10.210/jsp_prj/day1007/call_test.html">이전 페이지</a>
 </div>
 </body>
 </html>

@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="shortcut icon" href="http://192.168.10.225/jsp_prj/common/images/favicon.ico"/>
+<link rel="shortcut icon" href="http://192.168.10.210/jsp_prj/common/images/favicon.ico"/>
 <link rel="stylesheet" type="text/css" href="http://192.168.10.210/jsp_prj/common/css/main_20240911.css">
 <!-- bootstrap CDN 시작-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -75,7 +75,7 @@ for(String ip : blockIp){
 	<!-- 에러는 발생하지 않고 가장 앞의 값만 얻는다. -->
 	</li>
 </ul>
-<a href="http://localhost/jsp_prj/day1007/request.jsp?name=kim&age=20&age=21">요청</a>	
+<a href="http://192.168.10.210/jsp_prj/day1007/request.jsp?name=kim&age=20&age=21">요청</a>	
 <a href="http://192.168.10.210/jsp_prj/day1007/request.jsp?name=kim&age=20&age=21">요청</a>	
 <form method="post" action="request.jsp" enctype="application/x-www-form-urlencoded">
 <!-- 자신 페이지를 다시 요청할 때에는 action속성을 생략할 수 있다. -->

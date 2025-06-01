@@ -8,7 +8,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="shortcut icon" href="http://192.168.10.225/jsp_prj/common/images/favicon.ico"/>
+<link rel="shortcut icon" href="http://192.168.10.210/jsp_prj/common/images/favicon.ico"/>
 <link rel="stylesheet" type="text/css" href="http://192.168.10.210/jsp_prj/common/css/main_20240911.css">
 <!-- bootstrap CDN 시작-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -64,7 +64,7 @@ ${ paramValues.hobby[3] }<br>
 <div>
 <!-- 요청 링크를 클릭했을 때 nick의 값으로 test를,age를 20으로 
 설정하여 현재 페이지로 요청하는 URL과 Query String을 작성 -->
-<a href="http://localhost/jsp_prj/day1017/use_el2.jsp?nick=test&age=20">요청</a>
+<a href="http://192.168.10.210/jsp_prj/day1017/use_el2.jsp?nick=test&age=20">요청</a>
 <a href="use_el2.jsp?nick=test2&age=202">요청</a>
 </div>
 </div>

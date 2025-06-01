@@ -31,7 +31,7 @@ pageContext.setAttribute("rowCnt", rowCnt); //${ rowCnt }
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="shortcut icon" href="http://192.168.10.225/jsp_prj/common/images/favicon.ico"/>
+<link rel="shortcut icon" href="http://192.168.10.210/jsp_prj/common/images/favicon.ico"/>
 <script type="text/javascript">
 var msg="문제가 발생했습니다. 잠시 후 다시 시도해주세요";
 var cnt=${ rowCnt };

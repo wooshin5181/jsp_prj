@@ -12,7 +12,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="shortcut icon" href="http://192.168.10.225/jsp_prj/common/images/favicon.ico"/>
+<link rel="shortcut icon" href="http://192.168.10.210/jsp_prj/common/images/favicon.ico"/>
 <link rel="stylesheet" type="text/css" href="http://192.168.10.210/jsp_prj/common/css/main_20240911.css">
 <!-- bootstrap CDN 시작-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -43,7 +43,8 @@ boolean uploadFlag=(boolean)session.getAttribute("uploadFlag");
 
 if( !uploadFlag ){
 //1. 업로드된 파일의 저장 디렉토리 얻기
-File saveDir=new File("C:/dev/workspace/jsp_prj/src/main/webapp/upload");
+//File saveDir=new File("C:/dev/workspace/jsp_prj/src/main/webapp/upload");
+File saveDir=new File("C:/web_home/jsp_prj/upload");
 //2. 업로드 파일의 최대 크기( byte > Kbyte > Mbyte > Gbyte)
 int maxSize=1024*1024*10; //10Mbyte까지의 파일만 업로드 가능. 초과 예외발생 ( 예외처리 x )
 int uploadSize=1024*1024*600; //큰 파일도 업로드는 가능하도록 설정
@@ -92,7 +93,7 @@ if( uploadFile.length() > maxSize ){//업로드 최대 크기를 초과
 <br>
 원본파일명 : <%= originName %><br> 
 변경파일명 : <%= fileSysName %><br>
-<%-- <img src="http://localhost/jsp_prj/upload/<%= fileSysName %>"/>  --%>
+<%-- <img src="http://192.168.10.210/jsp_prj/upload/<%= fileSysName %>"/>  --%>
 <a href="file_list.jsp">파일리스트보기</a>
 </div>
 <%

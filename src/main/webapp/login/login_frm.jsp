@@ -76,7 +76,7 @@
     <input class="btn btn-primary w-100 py-2" id="btnLogin" type="button" value="로그인"/>
   </form>
 </main>
-<script src="http://192.168.10.210/html_prj/js0920/js/bootstrap.bundle.min.js"></script>
+<script src="http://192.168.10.210/jsp_prj/html_prj/js0920/js/bootstrap.bundle.min.js"></script>
 
     </body>
 </html>
